@@ -1,0 +1,11 @@
+name: postgresql
+values:
+  passwords:
+    - name: password
+      description: "Password for the postgres account."
+      print: true
+      length: 16
+      numDigits: 5
+      numSymbols: 5
+      noUpper: false
+      allowRepeat: false
