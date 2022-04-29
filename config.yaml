@@ -9,3 +9,7 @@ values:
       numSymbols: 0
       noUpper: false
       allowRepeat: false
+encryption:
+  enabled: true
+  inputPaths:
+    - base/secret.yaml

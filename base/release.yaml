@@ -22,3 +22,7 @@ spec:
   values:
     auth:
       existingSecret: postgresql-secret
+encryption:
+  enabled: true
+  inputPaths:
+    - base/secret.yaml
