@@ -1,7 +1,7 @@
 name: postgresql
 values:
   passwords:
-    - name: password
+    - name: postgresPassword
       description: "Password for the postgres account."
       print: true
       length: 16
