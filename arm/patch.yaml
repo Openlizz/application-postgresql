@@ -1,0 +1,11 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: postgresql
+  namespace: {{index . "namespace"}}
+spec:
+  values:
+    image:
+      registry: docker.io
+      repository: postgres
+      tag: 15.1
